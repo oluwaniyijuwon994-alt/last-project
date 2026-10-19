@@ -1,0 +1,248 @@
+body {
+  margin: 0;
+}
+
+.content-holder1 {
+  background-color: whitesmoke;
+  padding: 68px;
+  /* border: 1px solid black; */
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.Create-acc {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.content-holder2 {
+  display: flex;
+  width: 30%;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px #5b2a86;
+}
+
+.label-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.label-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.label-3 {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid blue; */
+  gap: 10px;
+  width: 100%;
+}
+
+.sit-edit {
+  display: flex;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.sit-edit button {
+  border: none;
+  width: 80px;
+  border: 10px;
+}
+
+.input-3 {
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.label-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.label-5 {
+  display: flex;
+  gap: 10px;
+}
+
+.lb-5-info {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.label-6 {
+  display: flex;
+  justify-content: center;
+}
+
+.label-6 button {
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  background-color: #5b2a86;
+  width: 100%;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.label-6 a:hover {
+  transform: scale(92%);
+  color: white;
+}
+
+.label-6 a {
+  padding: 1px 60px;
+  background-color: #5b2a86;
+  border-radius: 15px;
+  transition: 0.4s ease;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  outline: none;
+}
+
+label {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  body {
+    margin: 0;
+  }
+
+  .content-holder1 {
+    background-color: white;
+    padding: 4px;
+    /* border: 1px solid black; */
+  }
+
+  .Create-acc {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .content-holder2 {
+    display: flex;
+    border: none;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 10px;
+    box-shadow: none;
+    height: 65vh;
+  }
+
+  .label-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .label-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .label-3 {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid blue; */
+    gap: 10px;
+    width: 100%;
+  }
+
+  .sit-edit {
+    display: flex;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 3px;
+  }
+
+  .sit-edit button {
+    border: none;
+    width: 80px;
+    border: 10px;
+  }
+
+  .input-3 {
+    width: 100%;
+    border: none;
+    outline: none;
+  }
+
+  .label-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .label-5 {
+    display: flex;
+    gap: 10px;
+  }
+
+  .lb-5-info {
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .label-6 button {
+    padding: 7px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    background-color: #5b2a86;
+    width: 100%;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .label-6 a:hover {
+    transform: scale(92%);
+    color: white;
+  }
+
+  .label-6 a {
+    padding: 5px 65px;
+    background-color: #5b2a86;
+    border-radius: 10px;
+    transition: 0.4s ease;
+  }
+
+  input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+  }
+
+  label {
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
