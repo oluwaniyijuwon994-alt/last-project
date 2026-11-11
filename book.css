@@ -1,0 +1,640 @@
+.booking-hero-section {
+  background: url(./newImg/baby\ &\ cake.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 75vh;
+}
+
+.booking-hero-holder {
+  /* border: 1px solid blue; */
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.booking-hero-text {
+  /* border: 2px solid red; */
+  padding: 30px;
+  color: white;
+  width: 90%;
+}
+
+.booking-hero-text h2 {
+  font-size: 20px;
+  color: #c48b08;
+}
+
+.booking-hero-text h1 {
+  line-height: 50px;
+  font-size: 50px;
+}
+
+.booking-hero-text p {
+  font-size: 18px;
+}
+
+.mobile-h1 {
+  display: none;
+}
+
+.book-body {
+  /* border: 2px solid blue; */
+  padding: 30px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.body-holder {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  gap: 30px;
+  height: 80vh;
+  width: 90%;
+  padding: 10px;
+}
+
+.body-content1 {
+  /* border: 1px solid black; */
+  height: 100%;
+  background-color: rgb(236, 235, 233);
+  border-radius: 10px;
+}
+
+.body-content2 {
+  /* border: 1px solid black; */
+  height: 100%;
+  background-color: rgb(236, 235, 233);
+  border-radius: 10px;
+}
+
+.content-blah {
+  /* border: 1px solid red; */
+  padding: 20px;
+}
+
+.content1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* border: 1px solid red; */
+  width: 60%;
+  font-weight: 600;
+  color: #c48b08;
+}
+
+.content1 img {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.content2 p {
+  font-size: 14px;
+  color: gray;
+}
+
+.content2 h1 {
+  margin: 0px;
+}
+
+.content3 {
+  /* border: 1px solid red; */
+  padding: 10px;
+}
+
+.input-field {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  /* border: 1px solid blue; */
+  padding: 10px;
+}
+
+.input-field input {
+  padding: 15px 40px;
+  border-radius: 3px;
+  border: 1px solid gray;
+}
+
+.input-field-2 {
+  display: grid;
+  grid-template-columns: auto;
+  /* border: 1px solid peru; */
+  padding: 10px;
+  gap: 10px;
+}
+
+.input-field-2 input {
+  border: 1px solid gray;
+  padding: 15px 40px;
+  border-radius: 5px;
+}
+
+.input-field-2 textarea {
+  height: 15vh;
+  /* padding-inline: 10px; */
+  padding: 30px 30px;
+}
+
+.content4 {
+  display: flex;
+  justify-content: center;
+  width: 97%;
+  /* border: 1px solid blue; */
+  padding: 10px;
+}
+
+.content4-holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid red; */
+  padding: 5px;
+  width: 95%;
+}
+
+.sitting-edit1 {
+  border-radius: 10px;
+}
+
+.sitting-edit1 button {
+  background-color: #c48b08;
+  padding: 12px 50px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-weight: 600;
+}
+
+.real-sitting-edit {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  /* border: 1px solid red; */
+  gap: 10px;
+  color: gray;
+}
+
+.real-sitting-edit p {
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.real-sitting-edit img {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.content2-1 {
+  padding: 10px;
+}
+
+.content2-1 img {
+  width: 100%;
+  height: 30vh;
+  border-radius: 8px;
+}
+
+.content2-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  /* border: 1px solid red; */
+  width: 90%;
+  padding: 15px;
+}
+
+.content2-2 img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-top: 15px;
+}
+
+.list-cards-holder {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  /* border: 1px solid blue; */
+  width: 95%;
+  padding: 5px;
+  line-height: 40px;
+}
+
+.list-cards-holder p {
+  color: gray;
+  margin: 0;
+  line-height: 20px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.list-cards-holder h3 {
+  font-size: 19px;
+  margin: 0;
+}
+
+.section3 {
+  background-color: #d8d3c9;
+  height: 20vh;
+  width: 100%;
+}
+
+.last-section-holder {
+  display: flex;
+  justify-content: center;
+}
+
+.last-section {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid blue; */
+  width: 45%;
+}
+
+.lost-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 25px;
+}
+
+.lost-div h1 {
+  color: white;
+  font-size: 35px;
+  margin: 0;
+}
+
+.lost-div h3 {
+  color: #c48b08;
+}
+
+.lost-div p {
+  font-weight: 600;
+  color: rgb(29, 26, 22);
+}
+
+.mobile-submit-button {
+  display: none;
+}
+
+
+
+/* MOBILE STYLE */
+
+@media (max-width: 768px) {
+  .body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .booking-hero-section {
+    background: url(./newImg/baby\ &\ cake.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 29.4vh;
+    padding: 0;
+    /* border: 3px solid red; */
+  }
+
+  .header {
+    border-radius: 0px;
+    background-color: #5b2a86;
+    border: 1px solid #5b2a86;
+  }
+
+  .booking-hero-holder {
+    /* border: 1px solid blue; */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .booking-hero-text {
+    /* border: 2px solid red; */
+    padding: 30px;
+    color: white;
+    width: 90%;
+  }
+
+  .booking-hero-text h2 {
+    font-size: 20px;
+    color: #c48b08;
+  }
+
+  .booking-hero-text h1 {
+    display: none;
+    line-height: 50px;
+    font-size: 50px;
+  }
+
+  .booking-hero-text p {
+    display: none;
+    font-size: 18px;
+  }
+
+  .mobile-h1 {
+    display: block;
+    width: 100%;
+    /* border: 1px solid red; */
+    font-size: 27px;
+  }
+
+  .book-body {
+    display: flex;
+    /* border: 2px solid blue; */
+    padding: 2px;
+    margin-bottom: 10px;
+    height: auto;
+  }
+
+  .body-holder {
+    display: grid;
+    grid-template-columns: auto;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    gap: 30px;
+    height: fit-content;
+    width: 100%;
+    padding: 6px;
+  }
+
+  .body-content1 {
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 100%;
+    background-color: rgb(236, 235, 233);
+    border-radius: 10px;
+  }
+
+  .body-content2 {
+    /* border: 1px solid black; */
+    height: 74vh;
+    background-color: rgb(236, 235, 233);
+    border-radius: 10px;
+    margin: 0;
+  }
+
+  .content-blah {
+    /* border: 1px solid red; */
+    padding: 20px;
+  }
+
+  .content1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* border: 1px solid red; */
+    width: 60%;
+    font-weight: 600;
+    color: #c48b08;
+  }
+
+  .content1-holder {
+    /* border: 1px solid red; */
+    height: 100vh;
+  }
+
+  .content2-holder {
+    /* border: 1px solid blue; */
+    height: 100vh;
+  }
+
+  .content1 img {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+  }
+
+  .content2 p {
+    font-size: 14px;
+    color: gray;
+  }
+
+  .content2 h1 {
+    margin: 0px;
+  }
+
+  .content3 {
+    /* border: 1px solid red; */
+    padding: 10px;
+  }
+
+  .input-field {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    /* border: 1px solid blue; */
+    padding: 10px;
+  }
+
+  .input-field input {
+    padding: 15px 40px;
+    border-radius: 3px;
+    border: 1px solid gray;
+  }
+
+  .input-field-2 {
+    display: grid;
+    grid-template-columns: auto;
+    /* border: 1px solid peru; */
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .input-field-2 input {
+    border: 1px solid gray;
+    padding: 15px 40px;
+    border-radius: 5px;
+  }
+
+  .input-field-2 textarea {
+    height: 15vh;
+    /* padding-inline: 10px; */
+    padding: 30px 30px;
+  }
+
+  .content4 {
+    display: flex;
+    justify-content: center;
+    width: 97%;
+    /* border: 1px solid blue; */
+    padding: 10px;
+  }
+
+  .content4-holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    padding: 2px;
+    width: 100%;
+    gap: 5px;
+  }
+
+  .sitting-edit1 {
+    border-radius: 10px;
+  }
+
+  .sitting-edit1 button {
+    display: none;
+    background-color: #c48b08;
+    padding: 12px 50px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    font-size: 10px;
+    border: 1px solid red;
+  }
+
+  .mobile-submit-button {
+    display: block;
+  }
+
+  .mobile-submit-button button {
+    display: block;
+    background-color: #c48b08;
+    padding: 12px 30px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+  }
+
+  .mobile-submit-button a {
+    text-decoration: none;
+  }
+
+  .real-sitting-edit {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    /* border: 1px solid red; */
+    gap: 10px;
+    color: gray;
+  }
+
+  .real-sitting-edit p {
+    font-size: 11px;
+    font-weight: 600;
+  }
+
+  .real-sitting-edit img {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+  }
+
+  .content2-1 {
+    padding: 10px;
+  }
+
+  .content2-1 img {
+    width: 100%;
+    height: 30vh;
+    border-radius: 8px;
+  }
+
+  .content2-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    /* border: 1px solid red; */
+    width: 90%;
+    padding: 15px;
+  }
+
+  .content2-2 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 15px;
+  }
+
+  .list-cards-holder {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* border: 1px solid blue; */
+    width: 95%;
+    padding: 5px;
+    line-height: 40px;
+  }
+
+  .list-cards-holder p {
+    color: gray;
+    margin: 0;
+    line-height: 20px;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .list-cards-holder h3 {
+    font-size: 19px;
+    margin: 0;
+  }
+
+  .section3 {
+    /* border: 1px solid red; */
+    background-color: #d8d3c9;
+    height: 25vh;
+    width: 100%;
+  }
+
+  .last-section-holder {
+    /* display: 1px solid red; */
+    display: flex;
+    justify-content: center;
+  }
+
+  .last-section {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid blue; */
+    padding: 10px;
+    width: 100%;
+    height: 20vh;
+  }
+
+  .lost-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 25px;
+  }
+
+  .lost-div h1 {
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    /* border: 1px solid white; */
+    padding: 5px;
+  }
+
+  .lost-div h3 {
+    color: #c48b08;
+  }
+
+  .lost-div p {
+    font-weight: 600;
+    color: rgb(29, 26, 22);
+  }
+
+  .main-footer {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    /* position: absolute; */
+  }
+}

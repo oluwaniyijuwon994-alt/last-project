@@ -1,0 +1,214 @@
+/* body {
+  margin: 0;
+} */
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(./newImg/table\ setup.jpg);
+  background-size: cover;
+  height: 85vh;
+  color: white;
+}
+
+.port-intro {
+  font-size: 30px;
+  line-height: 0px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.black {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.eventique-portfolio {
+  padding: 10px;
+  /* border: 2px solid black; */
+  width: 70%;
+}
+
+.port-body h1 {
+  display: flex;
+  font-weight: 700;
+  justify-content: center;
+  align-self: center;
+}
+
+.port-body p {
+  color: gray;
+}
+
+.portfolio-cards {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.cards-holder {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: auto auto auto;
+  /* border: 2px solid blue; */
+  line-height: 15px;
+  width: 80%;
+  padding: 10px;
+}
+
+.card {
+  box-shadow: 0px 0px 10px #f6c453;
+  border-radius: 10px;
+  border: 1px solid #f6c453;
+  height: 60vh;
+  width: 98%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  color: gray;
+}
+
+.card p {
+  width: 100%;
+  line-height: 18px;
+}
+
+.cards-holder img {
+  width: 99%;
+  height: 30vh;
+  border-radius: 5px;
+}
+
+.txt2 {
+  display: none;
+}
+
+.mobile-popup {
+  display: none;
+}
+
+.footer-follow-us ul {
+  /* border: 1px solid red; */
+  list-style: none;
+}
+
+.main-footer-img {
+  border: 1px solid black;
+}
+
+@media (max-width: 768px) {
+  /* body {
+    margin: 0;
+  } */
+
+  .hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./newImg/table\ setup.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 34vh;
+    color: white;
+  }
+
+  .port-intro {
+    font-size: 30px;
+    line-height: 0px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .black {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .eventique-portfolio {
+    padding: 10px;
+    border: none;
+    width: 100%;
+  }
+
+  .hero-section {
+    border: none;
+  }
+
+  .port-body h1 {
+    display: flex;
+    font-weight: 700;
+    justify-content: center;
+    align-self: center;
+    /* border: 1px solid red; */
+    width: 97%;
+  }
+
+  .port-body p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    color: gray;
+    border: none;
+    padding: 10px;
+  }
+
+  .portfolio-cards {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .cards-holder {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto;
+    /* border: 2px solid blue; */
+    line-height: 15px;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .card {
+    box-shadow: 0px 0px 10px #f6c453;
+    border-radius: 10px;
+    border: 1px solid #f6c453;
+    width: 94.5%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    color: gray;
+  }
+
+  .card p {
+    width: 100%;
+    line-height: 18px;
+    font-size: 17px;
+  }
+
+  .cards-holder img {
+    width: 99%;
+    height: 30vh;
+    border-radius: 5px;
+  }
+
+  .txt1 {
+    display: none;
+  }
+
+  .txt2 {
+    display: block;
+  }
+
+  /* MOBILE POPUP  */
+
+  #mobile-popup {
+    z-index: 9999;
+  }
+}
